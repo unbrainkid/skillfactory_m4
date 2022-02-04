@@ -1,0 +1,51 @@
+@font-face {
+    src: url('../txt/Comforter-Regular.ttf');
+    font-family: "Comforter-Regular";
+}
+
+body {
+    background-color: #FFE4C4;
+    display: flex;
+    flex-direction: column;
+    
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+h1{
+    color:chocolate;
+    border: solid 1px black;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+     
+}
+
+
+.h2 {
+    border-left: 5px solid rgb(83, 42, 13);
+    padding-left: 10px;
+    color: rgb(210, 105, 30);
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+.img{
+    
+    padding: 5px 15px;
+    background-color: rgb(163, 94, 45);
+    margin: 0;
+    
+}
+a:hover{
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    
+    background-color: #F89B4D;
+    transition: margin-right 1s, color 1s;
+}
+.blockquote{
+    font-family: Comforter-Regular; 
+}
